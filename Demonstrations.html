@@ -70,7 +70,7 @@
             <h1 class="display-2 text-dark mb-4 animated slideInDown">Video Demonstrations</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
                     <li class="breadcrumb-item text-dark" aria-current="page">Demonstrations</li>
                 </ol>
@@ -94,7 +94,7 @@
                                     <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
                                         <i class="fa fa-check"></i>
                                     </div>
-                                    <span class="text-dark"><button id=" ">Pre-Milking Video</button></span>
+                                    <span class="text-dark"><button id="btn1">Pre-Milking Video</button></span>
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -205,6 +205,24 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
+  <script>
+        
+    const btn1 = document.getElementById('btn1');
+    const btn2 = document.getElementById('btn2');
+    const video1 = document.getElementById('video1');
+    const video2 = document.getElementById('video2');
+
+    btn1.addEventListener('click', () => {
+            video1.style.display = 'block';
+            video2.style.display = 'none';
+    });
+
+    btn2.addEventListener('click', () => {
+            video1.style.display = 'none';
+            video2.style.display = 'block';
+    });
+    </script>
+
     <script src="js/main.js"></script>
 </body>
 

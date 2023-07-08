@@ -16,6 +16,25 @@
     new WOW().init();
 
 
+
+    //video Hide show
+    
+    // const btn1 = document.getElementById('btn1');
+    // const btn2 = document.getElementById('btn2');
+    // const video1 = document.getElementById('video1');
+    // const video2 = document.getElementById('video2');
+
+    // btn1.addEventListener('click', () => {
+    //         video1.style.display = 'block';
+    //         video2.style.display = 'none';
+    // });
+
+    // btn2.addEventListener('click', () => {
+    //         video1.style.display = 'none';
+    //         video2.style.display = 'block';
+    // });
+
+
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
